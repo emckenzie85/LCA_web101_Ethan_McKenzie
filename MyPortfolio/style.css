@@ -1,7 +1,7 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: url(https://picography.co/wp-content/uploads/2019/04/picography-angular-architecture-art-768x512.jpg);
-    background-repeat: no-repeat;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: url(https://picography.co/wp-content/uploads/2017/11/picography-dark-forest-sm-1-768x525.jpg);
+    background-repeat: repeat;
     background-size: 100% 100%;
     height: 100vh;
     width: 100vw;
@@ -42,7 +42,7 @@ body {
   
   .has-border {
     border-radius: 25px;
-    border: 2px solid #0795C3;
+    border: 2px solid rgb(251, 251, 252);
     background: none;
     padding: 20px; 
   }
@@ -54,8 +54,8 @@ body {
   }
   
   #profile-pic {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin: 15% auto;
     grid-column: 2/3;
@@ -65,7 +65,7 @@ body {
     color:white;
     grid-column: 2/3;
     margin: 3% auto;
-    border-bottom: 2px solid #1940A9;;
+    border-bottom: 2px solid rgb(244, 245, 247);;
   }
   
   h2 {
@@ -86,7 +86,7 @@ body {
     padding: 20px; 
     padding-bottom: 5%;
     text-align: center;
-    color: black;
+    color: white;
     letter-spacing: 16px;
     font-style: italic;
   }
