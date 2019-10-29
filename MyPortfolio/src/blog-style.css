@@ -1,0 +1,36 @@
+h1 {
+  width:60%;
+  margin: 5% auto;
+  background: cadetblue;
+  border: solid darkslategrey;
+}
+/*
+body {
+
+} */
+
+main {
+  width: 60%;
+  margin: 5% auto;
+  background: slateblue !important;
+  background: salmon
+}
+
+article {
+  margin: 1% auto;
+  border: solid darkslategrey 2px;
+  width: 60%;
+  background: grey
+} 
+
+article > h3 {
+  font-size: 1em;
+}
+
+article:hover {
+  background:chartreuse;
+}
+
+article:hover > ::first-letter {
+  color: blue
+}
