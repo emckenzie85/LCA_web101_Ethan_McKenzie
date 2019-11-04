@@ -1,5 +1,15 @@
-@media (min-width: 768px) {
-  .column {
-    color: blue;
-  }
+ @media (max-width: 768px) {
+
+    #profile-pic {
+      width: 210px;
+      height: 300px;
+      border: 1px solid black;
+    }
+    
+    header {
+      width: 75%;
+      grid-template-columns: 40% 60%;
+      border: 1px solid black;
+    } 
+
 }
