@@ -4,7 +4,8 @@ body {
     background-repeat: repeat;
     background-size: 100% 100%;
     height: 100vh;
-    width: 100vw;
+    width: 90vw;
+    box-sizing: border-box;
   }
   
   .logo {
@@ -30,14 +31,14 @@ body {
     margin: 2% 1% 3%;
     height: 10%;
     width: 15%;
-    color: white;
+    color: solid black; bold
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 25px;
     background: transparent;
     padding: 20px; 
     text-align: center;
-    border: 2px solid white;
+    border: 2px solid orangered;
   }
   
   .has-border {
@@ -54,22 +55,26 @@ body {
   }
   
   #profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 300px;
     border-radius: 50%;
     margin: 15% auto;
     grid-column: 2/3;
   }
   
   h1 {
-    color:white;
+    color: orangered;
+    font-size: 55px;
     grid-column: 2/3;
     margin: 3% auto;
-    border-bottom: 2px solid rgb(244, 245, 247);;
+    border-bottom: 5px solid black;
   }
   
   h2 {
+    color: orangered;
+    font-size: 45px;
     grid-column: 2/3;
+    text-align: center;
     margin: 3% auto;
     font-style: italic;
   }
@@ -82,11 +87,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     border-radius: 25px;
-    background: transparent;
+    background: lightgreen;
     padding: 20px; 
     padding-bottom: 5%;
     text-align: center;
     color: white;
     letter-spacing: 16px;
-    font-style: italic;
+    font-style: italic; 
   }

@@ -1,0 +1,46 @@
+body  {
+  width: 850px;
+  margin: 0 auto;
+}
+
+main  {
+  margin: 0 auto;
+  height: 450px;
+  background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/09/15/443023/c4ee8035491edc42902c5203428d9c46.jpg);
+  color: white;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+section  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: lightgray;
+  height: 324px;
+}
+
+article  {
+  width: 270px;
+  height: 374px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: transparent;
+}
+
+article > h3  {
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 25px; 
+  font: bold;
+}
+
+article > p  {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article > p > button  {
+  color: darkslategrey;
+}
+
