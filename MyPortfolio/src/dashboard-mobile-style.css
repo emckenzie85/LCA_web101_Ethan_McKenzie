@@ -1,0 +1,42 @@
+@media (max-width: 576px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "h1" 
+    "h2" 
+    "calendar"
+    "calculator" 
+    "clock" 
+    "to-do-list";
+  }
+  
+  .h1 { 
+    grid-area: h1;
+    text-align: center; 
+  }
+  
+  .h2 { 
+    grid-area: h2;
+    text-align: center; 
+  }
+  
+  #calendar-container { 
+    grid-area: calendar; 
+  }
+  
+  #clock-container { 
+    grid-area: clock;
+    left: 30%;
+  }
+  
+  #calculator-container { 
+    grid-area: calculator; 
+  }
+  
+  #to-do-list-container { 
+    grid-area: to-do-list; 
+  }
+  
+}
