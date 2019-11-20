@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.4fr 0.6fr 2fr 1.6fr 0.4fr;
+    grid-template-areas: ". h1 h1 ." ". h2 h2 ." "calendar . . calculator" ". . clock ." "to-do-list . . .";
+  }
+  
+  .h1 { 
+    grid-area: h1; 
+    text-align: center;
+  }
+  
+  .h2 { 
+    grid-area: h2;
+    text-align: center; 
+  }
+  
+  #calendar-container { 
+    grid-area: calendar; 
+  }
+  
+  #clock-container { 
+    grid-area: clock; 
+    margin-top: 5%;
+  }
+  
+  #calculator-container { 
+    grid-area: calculator; 
+  }
+  
+  #to-do-list-container { 
+    grid-area: to-do-list; 
+  }
+
+}
