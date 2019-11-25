@@ -1,0 +1,46 @@
+@media (max-width: 576px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "h1"
+    "nav"
+    "Lg-pic-container"
+    "sm-pic-container1"
+    "sm-pic-container2"
+    "sm-pic-container3"
+    "footer";
+  }
+
+  .h1  {
+    grid-area: h1;
+    text-align: center;
+  }
+
+  .nav  {
+    grid-area: nav;
+    text-align: center;
+  }
+
+  .Lg-pic-container  {
+    grid-area: Lg-pic-container;
+  }
+
+  .sm-pic-container1  {
+    grid-area: sm-pic-container1;
+  }
+
+  .sm-pic-container2  {
+    grid-area: sm-pic-container2;
+  }
+
+  .sm-pic-container3  {
+    grid-area: sm-pic-container3;
+  }
+
+  .footer  {
+    grid-area: footer;
+  }
+
+}
