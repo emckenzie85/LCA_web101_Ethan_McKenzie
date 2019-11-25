@@ -1,0 +1,123 @@
+header  {
+  background-color: ghostwhite;
+}
+
+h1  {
+ font-size: 4.5em;
+ font-family: 'Pacifico', cursive;
+ text-align: center;
+}
+
+nav {
+  font-size: 1.5em;
+  font-style: bold;
+  text-align: center;
+  margin-bottom: 2em;
+}
+  
+.wrapper {
+  display: grid;
+  grid-template-columns: 1em 1em 1em;
+  grid-gap: 30em;
+}
+  
+#Lg-pic-container  {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border: solid black;  
+}
+
+.text-block1  {
+  position: absolute;
+  top: 2em;
+  left: 1.7em;
+  background-color: white;
+  color: black;
+  padding-left: .5em;
+  padding-right: .5em;
+  font-family: 'Abril Fatface', cursive;
+  font-size: xx-large;
+}
+
+.text-block2  {
+  position: absolute;
+  top: 12em;
+  left: 3em;
+  background-color: grey;
+  color: black;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: arial;
+  font-size: large;
+}
+
+.text-block3  {
+  position: absolute;
+  top: 17em;
+  left: 3em;
+  background-color: grey;
+  color: black;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: arial;
+  font-size: large;
+}
+
+.text-block4  {
+  position: absolute;
+  top: 22em;
+  left: 3em;
+  background-color: grey;
+  color: black;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: arial;
+  font-size: large;
+}
+
+button  {
+  position: absolute;
+  top: 19em;
+  left: 2em;
+  background-color: lightseagreen;
+  color: white;
+  padding-left: .5em;
+  padding-right: .5em;
+  font-family: 'Abril Fatface';
+  font-size: 1.7em;
+}
+
+article  {
+  background-color: black;
+  margin-bottom: 3em;
+}
+
+#sm-pic-container1  {
+  margin-top: 2em;
+  margin-bottom:.3em;
+  margin-left: .8em;
+}
+
+#sm-pic-container2  {
+  margin-top: 2em;
+  margin-bottom: .9em;
+  margin-left: 2em;
+}
+
+#sm-pic-container3  {
+  margin-top: 2em;
+  margin-left: 1.8em;
+}
+
+footer  {
+  background-color: rgb(61, 60, 60);
+  height: 15em;
+  text-align: left;
+}  
+
+#twitter  {
+  margin-top: 2em;
+  margin-left: 60em
+}
