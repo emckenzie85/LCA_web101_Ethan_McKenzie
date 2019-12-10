@@ -1,0 +1,23 @@
+header  {
+  border: solid black;
+  background-color: seagreen;
+  font-family: monospace;
+  font-size: 2em;
+  text-align: center;
+  padding: .2em;
+}
+
+main  {
+  background-color: slateblue;
+  padding: .5em;
+  font-family: monospace;
+  font-size: xx-large;
+  text-align: center;
+  border: solid black;
+}
+
+footer  {
+  border: solid black;
+  background-color: seagreen;
+  padding: .2em;
+}
